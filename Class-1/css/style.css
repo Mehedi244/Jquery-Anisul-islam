@@ -1,0 +1,122 @@
+*{
+	box-sizing: border-box;
+}
+.container {
+    max-width: 992px;
+    box-shadow: 0px 0px 1px #00000073;
+    margin: 0 auto;
+}
+.row{
+	width: 100%;
+}
+
+/*for desktop*/
+.col-md-1{width: 8.33%;}
+.col-md-2{width: 16.64%;}
+.col-md-3{width: 25%;}
+.col-md-4{width: 33.33%;}
+.col-md-5{width: 41.66%;}
+.col-md-6{width: 50%;}
+.col-md-7{width: 58.33%;}
+.col-md-8{width: 66.66%;}
+.col-md-9{width: 75%;}
+.col-md-10{width: 83.33%;}
+.col-md-11{width: 91.66%;}
+.col-md-12{width: 100%;}
+
+
+[class*="col-md-"]{
+	float: left;
+	padding: 10px;
+}
+.row::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.logo-box{
+	width: 100px;
+}
+.logo-box img{
+	width: 100%;
+}
+.menu{
+	background-color: black;
+	overflow: hidden;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.menu-text ul {
+    margin: 0px;
+}
+.menu-text nav ul li{
+	display: inline;
+	list-style: none;
+	margin: 0px;
+}
+.menu-text nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: ;
+    padding: 16px;
+    transition: .7s;
+}
+.menu-text nav ul li a:hover {
+    color: black;
+    background-color: yellow ;
+    padding: 16px;
+}
+
+.login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.login a{
+	color: white;
+	text-decoration: none;
+	background-color: gray;
+	padding: 6px 20px;
+}
+
+#body-section-main{
+	min-height: 500px;
+}
+
+
+footer{
+	background-color: black;
+	overflow: hidden;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer h4 {
+    text-align: center;
+    margin: 0px;
+}
+#p1 {
+    background-color: red;
+    color: white;
+    width: 200px;
+   position: absolute;
+    margin-left: 782px;
+    display: none;
+    transition: 1s;
+
+
+}
+
+button#show {
+    display: inline;
+}
+
+
+/*.color{
+	color:red;
+}
+*/
